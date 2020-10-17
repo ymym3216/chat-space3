@@ -1,0 +1,11 @@
+.chat-main
+  .main-header
+  .messages
+  .form
+    %form.new_message
+      .input-box
+        %input{type: "text", class: "input-box_text", placeholder: "type a message"}
+        %label{class: "input-box_image"}
+          = icon('fas','image')
+          %input{type: "file", class: "input-box_image_file"}
+      %input{type: "submit", class: "submit-btn"}
